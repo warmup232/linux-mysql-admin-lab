@@ -68,3 +68,25 @@ This follows the principle of least privilege.
   "email": "minsoo@example.com",
   "department": "IT"
 }
+Database Setup
+
+Run the SQL scripts in order:
+
+database/01_schema.sql
+database/02_seed.sql
+database/03_permissions.sql
+## Project Structure
+
+company-management-api/
+├── app/
+│   └── app.py
+├── database/
+│   ├── 01_schema.sql
+│   ├── 02_seed.sql
+│   └── 03_permissions.sql
+├── .gitignore
+├── requirements.txt
+└── README.md
+Security Note
+
+Database credentials are intentionally excluded from source control.
