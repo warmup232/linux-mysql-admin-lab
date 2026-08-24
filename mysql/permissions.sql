@@ -1,6 +1,6 @@
 -- Create application user
 CREATE USER 'app_user'@'localhost'
-IDENTIFIED BY 'AppPassword123!';
+IDENTIFIED BY 'DB password';
 
 -- Grant limited permissions
 GRANT SELECT, INSERT, UPDATE, DELETE
